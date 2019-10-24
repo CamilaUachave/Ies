@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ies.app</groupId>
+  <artifactId>my-IES</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>my-IES</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+    	<groupId>com.squareup.retrofit2</groupId>
+    	<artifactId>retrofit</artifactId>
+    	<version>2.3.0</version>
+    </dependency>
+    <dependency>
+	    <groupId>com.squareup.retrofit2</groupId>
+	    <artifactId>retrofit</artifactId>
+	    <version>2.3.0</version>
+    </dependency>  
+	<dependency>  
+	    <groupId>com.squareup.retrofit2</groupId>
+	    <artifactId>converter-gson</artifactId>
+	    <version>2.3.0</version>
+	</dependency>
+  </dependencies>
+  
+   <developers>
+        <developer>
+        	<id>Camila</id>
+        	<name>Camila Uachave</name>
+        	<email>camilauachave@ua.pt</email>
+        	<url>http://www.ua.pt</url>
+        	<organization>Ua</organization>
+        	<organizationUrl>http://www.ua.pt</organizationUrl>
+        	<roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+   </developers>
+</project>
